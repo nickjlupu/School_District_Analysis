@@ -28,10 +28,10 @@ The iPython Notebook, PyCitySchools was developed throughout the modules for thi
 When the Thomas High School 9th grade reading and math scores are removed from the dataset, the total schools and total students numbers are not affected.  We still use the same total number of students (39,170) to report overall averages by district.  The average math score for the district decreases from 79.0 to 78.9, but the average reading score remains the same (81.9).  The percentage of students passing math, reading, and both (overall) is reduced by ~1%.  This makes sense because there are 461 ninth grade students at Thomas High School, which is roughly 1.1% of the total 39,170 students in the district.
 
 #### Fig. 1:  District Summary prior to removing Thomas High School 9th grade scores
-![](Images/District_Summary_Original.png)
+![](Images/District_Summary_Original.PNG)
 
 #### Fig. 2:  District Summary after removing Thomas High School 9th grade scores
-![](Images/District_Summary_New.png)
+![](Images/District_Summary_New.PNG)
 
 
 ### How is School Summary affected?
@@ -41,49 +41,49 @@ The School Summary dataframe changes only with regard to Thomas High School itse
 Using the original data set with the corrupted scores puts Thomas High School in the Top 5 schools in the district.  Specifically, second in the district with an overall passing percentage of 90.9.  However, when the corrupt 9th grade scores are removed from the dataset, Thomas High School drops out of the Top 5 and into the 8th slot with an overall passing percentage of 60.1.  This drop of ~30% points is to be expected since the 461 ninth grade students account for ~28% of total students at Thomas High School. Outside of retesting the 9th grade students at Thomas High School, there is no way to be sure of the true overall performance of the school.  However, further study could be done evaluating the data by replacing the 9th grade scores with overall district averages or even average scores in similar size or funded schools.  In this assignment, we were asked to simply replace the corrupt data with NaN’s.  
 
 #### Fig. 3:  Top 5 Schools prior to removing Thomas High School 9th grade scores
-![](Images/Top_5_Schools_Original.png)
+![](Images/Top_5_Schools_Original.PNG)
 
 #### Fig. 4:  Top 10 Schools after removing Thomas High School 9th grade scores
-![](Images/Top_10_Schools_New.png)
+![](Images/Top_10_Schools_New.PNG)
 
 ### How does removing scores affect Math & Reading scores by grade?  
 As expected, the math and reading scores by grade for all other schools are not affected when the Thomas High School 9th grade scores are removed.  This is due to how the data was grouped into the dataframe.  Nonetheless, there is now a hole in the dataset for these scores.  This can be addressed as discussed above.  
 
 #### Fig. 5:  Math Scores by Grade
 #### Before removing Thomas High School 9th grade scores                #### After 
-![](Images/Math_by_grade_Original.png)                            ![](/Images/Math_by_grade_New.png)
+![](Images/Math_by_grade_Original.PNG)                            ![](/Images/Math_by_grade_New.PNG)
 
 #### Fig. 6:  Reading Scores by Grade
 #### Before removing Thomas High School 9th grade scores                #### After 
-![](Images/Reading_by_grade_Original.png)                         ![](/Images/Reading_by_grade_New.png) 
+![](Images/Reading_by_grade_Original.PNG)                         ![](/Images/Reading_by_grade_New.PNG) 
 
 ### By School Spending?  
 Again, due to how the data was grouped for this dataframe only the bin that contains Thomas High School is affected.  Since Thomas High School’s per student budget is $638, this is the $630-644 bin.  Surprisingly, the average math & reading scores stayed the same.  Yet, because the total number of students includes the 9th grade students with no scores, the percentage of students passing math, reading, and both (overall) has dropped in this bin ~7 points.
 
 #### Fig. 7:  Summary by School Spending prior to removing Thomas High School 9th grade scores
-![](Images/School_Spending_Summary_Original.png)
+![](Images/School_Spending_Summary_Original.PNG)
 
 #### Fig. 8:  Summary by School Spending after removing Thomas High School 9th grade scores
-![](Images/School_Spending_Summary__New.png)
+![](Images/School_Spending_Summary__New.PNG)
 
 ### By School Size?  
 The same can be said for the size of the school.  Thomas High School has 1,635 so it is categorized in the Medium School Size.  Here we see a decrease of ~6 points in the percentage of students passing math, reading, and both (overall).
 
 #### Fig. 9:  Summary by School Size prior to removing Thomas High School 9th grade scores
-![](Images/School_Size_Summary_Original.png)
+![](Images/School_Size_Summary_Original.PNG)
 
 #### Fig. 10:  Summary by School Size after removing Thomas High School 9th grade scores
-![](Images/School_Size_Summary__New.png)
+![](Images/School_Size_Summary__New.PNG)
 
 
 ### By School Type?
 Lastly, Thomas High School is a Charter School.  We see a roughly 4 point drop in the percentage of students passing math, reading, and both (overall) without affecting the District Schools. 
 
 #### Fig. 11:  Summary by School Type prior to removing Thomas High School 9th grade scores
-![](Images/School_Type_Summary_Original.png)
+![](Images/School_Type_Summary_Original.PNG)
 
 #### Fig. 12:  Summary by School Size after removing Thomas High School 9th grade scores
-![](Images/School_Type_Summary__New.png)
+![](Images/School_Type_Summary__New.PNG)
 
 
 
