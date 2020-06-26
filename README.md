@@ -64,7 +64,7 @@ Again, due to how the data was grouped for this dataframe only the bin that cont
 ![](Images/School_Spending_Summary_Original.PNG)
 
 #### Fig. 8:  Summary by School Spending after removing Thomas High School 9th grade scores
-![](Images/School_Spending_Summary__New.PNG)
+![](Images/School_Spending_Summary_New.PNG)
 
 ### By School Size?  
 The same can be said for the size of the school.  Thomas High School has 1,635 so it is categorized in the Medium School Size.  Here we see a decrease of ~6 points in the percentage of students passing math, reading, and both (overall).
@@ -73,7 +73,7 @@ The same can be said for the size of the school.  Thomas High School has 1,635 s
 ![](Images/School_Size_Summary_Original.PNG)
 
 #### Fig. 10:  Summary by School Size after removing Thomas High School 9th grade scores
-![](Images/School_Size_Summary__New.PNG)
+![](Images/School_Size_Summary_New.PNG)
 
 
 ### By School Type?
