@@ -50,11 +50,13 @@ Using the original data set with the corrupted scores puts Thomas High School in
 As expected, the math and reading scores by grade for all other schools are not affected when the Thomas High School 9th grade scores are removed.  This is due to how the data was grouped into the dataframe.  Nonetheless, there is now a hole in the dataset for these scores.  This can be addressed as discussed above.  
 
 #### Fig. 5:  Math Scores by Grade
-#### Before removing Thomas High School 9th grade scores                #### After 
+#### Before removing Thomas High 
+#### School 9th grade scores              After 
 ![](Images/Math_by_grade_Original.PNG)                            ![](/Images/Math_by_grade_New.PNG)
 
 #### Fig. 6:  Reading Scores by Grade
-#### Before removing Thomas High School 9th grade scores                #### After 
+#### Before removing Thomas High 
+#### School 9th grade scores              After 
 ![](Images/Reading_by_grade_Original.PNG)                         ![](/Images/Reading_by_grade_New.PNG) 
 
 ### By School Spending?  
@@ -83,7 +85,7 @@ Lastly, Thomas High School is a Charter School.  We see a roughly 4 point drop i
 ![](Images/School_Type_Summary_Original.PNG)
 
 #### Fig. 12:  Summary by School Size after removing Thomas High School 9th grade scores
-![](Images/School_Type_Summary__New.PNG)
+![](Images/School_Type_Summary_New.PNG)
 
 
 
