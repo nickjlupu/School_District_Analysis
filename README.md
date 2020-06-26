@@ -20,7 +20,7 @@ csv’s provided:  schools_complete.csv, students_complete.csv
 
 ## Analysis
 
-The iPython Notebook, PyCitySchools was developed throughout the modules for this week.  Several pandas library dataframes and functions were used to read data from the csv files, build dataframes, and acquire the requested output.  For the challenge Additionally, the pandas .loc & numpy np.nan functions were used to replace the corrupt student data with “not a number” entries.  Finally, the code was ran again with the data replaced and the results are discussed below.
+The iPython Notebook, PyCitySchools was developed throughout the modules for this week.  Several pandas library dataframes and functions were used to read data from the csv files, build dataframes, and acquire the requested output.  For the challenge, the file was saved as PyCitySchools_Challenge and then the pandas .loc & numpy np.nan functions were used to replace the corrupt student data with “not a number” entries.  Finally, the code was run again with the data replaced and the results are discussed below.
 
 ## Conclusions
 
