@@ -51,12 +51,12 @@ As expected, the math and reading scores by grade for all other schools are not 
 
 #### Fig. 5:  Math Scores by Grade
 #### Before removing Thomas High 
-#### School 9th grade scores              After 
+#### School 9th grade scores                                       After 
 ![](Images/Math_by_grade_Original.PNG)                            ![](/Images/Math_by_grade_New.PNG)
 
 #### Fig. 6:  Reading Scores by Grade
 #### Before removing Thomas High 
-#### School 9th grade scores              After 
+#### School 9th grade scores                                       After 
 ![](Images/Reading_by_grade_Original.PNG)                         ![](/Images/Reading_by_grade_New.PNG) 
 
 ### By School Spending?  
